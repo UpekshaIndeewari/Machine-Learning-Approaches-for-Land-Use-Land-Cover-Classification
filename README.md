@@ -22,6 +22,7 @@ To address these limitations, this project employs ML algorithms, which offer th
 
 ## 2. Proposed workflow
 The proposed work flow consisted with following steps.
+![Proposed Work flow]()
 
 
 
