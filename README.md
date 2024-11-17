@@ -8,6 +8,20 @@ This project investigates machine learning (ML) techniques for land use and land
 
 ### 1.1 Project Background
 LULC classification is a fundamental process in environmental science, involving the identification and mapping of various surface features such as vegetation, water bodies, urban infrastructure, and bare land. Understanding and monitoring LULC is crucial for effective environmental management, urban planning, agriculture, and biodiversity conservation. These classifications serve as the foundation for assessing changes in land cover over time, which is essential for tracking the impact of human activities and natural phenomena on ecosystems.
+
 Traditional methods of LULC classification, including manual and rule-based approaches, often struggle to accurately capture the complexities of spectral and spatial patterns in heterogeneous landscapes. The Moehne Reservoir region exemplifies such diversity, with a mix of forests, water bodies, agricultural fields, and urban areas that challenge traditional classification models.
-To address these limitations, this study employs machine learning algorithms, which offer the capability to model non-linear relationships and leverage high-dimensional datasets effectively. By analyzing Sentinel-2 imagery using ML techniques such as Support Vector Machine (SVM), Random Forest (RF), and Decision Trees (DT), this project identifies the most effective method for LULC classification in the region. Additionally, it evaluates these algorithms to determine the most reliable and scalable solution for assessing land use changes. The findings contribute to the advancement of robust, data-driven methodologies for LULC analysis and support informed decision-making in land management and policy development.
+
+To address these limitations, this project employs ML algorithms, which offer the capability to model non-linear relationships and leverage high-dimensional datasets effectively. By analyzing Sentinel-2 imagery using ML techniques such as **Support Vector Machine (SVM)**, **Random Forest (RF)**, and **Decision Trees (DT)**, this project identifies the most effective method for LULC classification in the region. Additionally, it evaluates these algorithms to determine the most reliable and scalable solution for assessing land use changes.
+
+### 1.2 Objectives
+•	To leverage open source Sentinel-2 satellite data for LULC analysis.
+•	To implement and evaluate machine learning algorithms for LULC classification.
+•	To assess the performance of machine learning algorithms in capturing LULC patterns.
+•	To identify the most effective machine learning algorithm for LULC classification.
+•	To propose a flexible and scalable framework for LULC classification.
+
+## 2. Proposed workflow
+The proposed work flow consisted with following steps.
+
+
 
