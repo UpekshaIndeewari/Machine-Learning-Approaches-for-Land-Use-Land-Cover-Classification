@@ -134,6 +134,8 @@ https://www.sciencedirect.com/science/article/pii/S1574954122004058
 
 https://waleedgeo.medium.com/lulc-py-78cb954673d
 
+https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929
+
 
 
 
