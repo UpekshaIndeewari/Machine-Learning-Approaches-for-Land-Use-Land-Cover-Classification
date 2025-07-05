@@ -1,19 +1,38 @@
-## Application of Google Earth Engine (GEE) for Landuse Classification and Monitoring Change Detection
+## Machine Learning Approaches for Landuse/ Land Cover Classification
 
-This project utilizes Sentinel-2 imagery and the computational power of GEE to classify land use and detect temporal changes in the Münster region of Germany. By integrating remote sensing indices like NDVI (Normalized Difference Vegetation Index) and NDBI (Normalized Difference Built-up Index) with machine learning techniques, especially the Random Forest classifier, this study aims to perform accurate land use classification and monitor landscape transformations from 2016 to 2023. The outcomes contribute to a deeper understanding of regional land use trends, particularly urban expansion, vegetation changes, and water resource shifts—insights that are crucial for informed decision-making in land resource management.
+This project explores the application of machine learning algorithms in identifying and mapping different land cover types using satellite imagery and compares the performance of algorithms.
 
 ## **Technologies Used**  
-![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-34A853?style=for-the-badge&logo=google&logoColor=white)
-![ArcGIS Pro](https://img.shields.io/badge/ArcGIS_Pro-0A2463?style=for-the-badge&logo=esri&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Fiona](https://img.shields.io/badge/Fiona-8E44AD?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-3B4CCA?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-E70488?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FF6F61?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-20B2AA?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Rasterio](https://img.shields.io/badge/Rasterio-009688?style=for-the-badge&logo=python&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-2980B9?style=for-the-badge&logo=geopandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-4C4CFF?style=for-the-badge&logo=plotly&logoColor=white)
 
-- **Google Earth Engine (GEE)** is a cloud-based geospatial processing platform that enables large-scale analysis of satellite imagery and geospatial datasets. It provides powerful tools for data access, preprocessing, visualization, and the implementation of machine learning algorithms, making it ideal for land use classification and change detection. GEE supports scripting and automation of spatial analysis tasks using both JavaScript and Python APIs, streamlining the processing of multi-temporal satellite data such as Sentinel-2. 
-- **ArcGIS Pro** was utilized to visualize and analyze the classified land use maps exported from GEE. It facilitated the calculation of land cover area statistics and the creation of high-quality cartographic outputs for presentation and interpretation.
+- **fiona** for reading and writing vector data
+- **numpy**: provides support for arrays, matrices, and many mathematical functions
+- **pandas**:for data analysis and manipulation
+- **matplotlib**: for interactive visualizations
+- **seaborn**: for interactive statistical visualizations
+- **sklearn**: for machine learning workflows
+- **rasterio**: for reading and writing geospatial raster data
+- **geopandas**: for spatial operations on geometric types
+- **plotly**: for interactive dynamics chart
 
 ## **Workflow**
-![Workflow](https://github.com/UpekshaIndeewari/Application-of-Google-Earth-Engine-for-Landuse-Classification/blob/main/Workflow.png)
+![Workflow](https://github.com/UpekshaIndeewari/Machine-Learning-Approaches-for-Land-Use-Land-Cover-Classification/blob/main/Workflow.png)
 
 ## **Folder Structure**
-📂 img
+📂 data
+
+📂 imges
+
+📂 results
 
 📄 Project Description.md
 
@@ -21,13 +40,15 @@ This project utilizes Sentinel-2 imagery and the computational power of GEE to c
 
 📄 Workflow.png
 
-📄 project.js
+📄 test.ipynb
 
--  **img:** includes all images from project result.
+-  **data:** includes all data for project.
+-  **images:** includes all images from project result.
+-  **results:** includes all result images.
 -  **Project Description.md:** Description about project.
--  **project.js:** includes javascript code for project
+-  **test.ipynb:** includes code for project
 
-**For a comprehensive description of the project, please refer to the [link provided](https://github.com/UpekshaIndeewari/Application-of-Google-Earth-Engine-for-Landuse-Classification/blob/main/Project%20Description.md)**
+**For a comprehensive description of the project, please refer to the [link provided](https://github.com/UpekshaIndeewari/Machine-Learning-Approaches-for-Land-Use-Land-Cover-Classification/blob/main/Project%20Description.md)**
 
 ## **Contributing**
 Contributions are welcome! Please open an **issue** or submit a **pull request**.
